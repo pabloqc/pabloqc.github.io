@@ -1,0 +1,29 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: me
+    url: false
+    entries:
+      - title: email
+        url: mailto:pablo.qc@gmail.com
+      - title: github
+        url: http://github.com/pabloqc/
+
+  - title: my latest thought
+    post_list:
+      limit: 1
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
+
+  - title: misc thoughts
+    post_list:
+      category: misc
+      show_more: true
+
+  - title: it stuff
+    post_list:
+      category: it
+      show_more: true
+
